@@ -70,7 +70,7 @@ public class Polling extends FragmentActivity{
         final LayoutParams lparams = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
         final EditText textView = new EditText(this);
         textView.setLayoutParams(lparams);
-        textView.setText("New text: " + text);
+        textView.setText(text);
         return textView;
     }
 
